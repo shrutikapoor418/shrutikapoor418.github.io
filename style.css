@@ -1,0 +1,65 @@
+body{
+  font-family: 'Noto Serif', serif;
+  background-image:url('ucd form.jpg');
+}
+form{
+  width: 300px;
+  margin: 50px auto;
+  padding: 10px 20px;
+   background:#f9ccac;
+}
+input{
+  font-size: 16px;
+  padding: 16px;
+  background-color:#fbefcc  ;
+}
+.lighto
+{
+  padding-top: 30px;
+  margin: 30px;
+}
+input:focus
+{
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+
+}
+
+input[type="radio"],input[type="checkbox"]
+{
+  margin: 0 4px 8px 0;
+}
+select{
+  padding: 6px;
+  height: 32px;
+  margin: 10px;
+}
+fieldset
+{
+  margin-bottom: 30px;
+}
+legend
+{
+  display: block;
+  margin: 10px;
+}
+label.light
+{
+  font-weight: 300;
+  display: inline;
+}
+.section{
+  background-color: grey;
+  border-radius: 8px;
+}
+button
+{
+  width: 70px;
+  height:70px;
+  text-align: center;
+}
+@media screen and (min-width: 480px){
+  form
+  {
+    max-width: 480px;
+  }
+}
